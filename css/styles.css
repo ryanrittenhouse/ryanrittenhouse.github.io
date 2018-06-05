@@ -1,0 +1,98 @@
+body {
+    font-family:'Lato',sans-serif;
+    color:#416FA0;
+    font-weight:300;
+    font-size:2vmin
+}
+
+.row-buffer {
+    margin-top:20px;
+    margin-bottom:30spx
+}
+
+.title-logo {
+    height:140px;
+    width:140px
+}
+
+.img-responsive {
+    border-radius: 5px;
+}
+
+.title-super {
+    font-weight:110;
+    font-size:6vmin
+}
+
+.text-thin {
+    font-weight:105;
+    font-size:3vmin
+}
+
+.text-muted {
+    color:#5d8bbd
+}
+
+/* MODAL */
+.hero {
+    padding:1em;
+    max-width:100%;
+    background-color:#015f47;
+    color:#fff
+}
+
+.my-picture {
+    display:block;
+    margin:0 auto 10px;
+    width:max-width;
+    border:2px solid #fff;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%
+}
+
+.iama {
+    max-width:100%;
+    color:#015f47;
+    letter-spacing:.05em;
+    font-size:16px;
+    font-weight:850;
+    margin:0;
+    text-align:center;
+    color:#5b7a6b
+}
+
+.my-info {
+    max-width:100%;
+    padding-top:1%;
+    font-size:18px;
+    margin:0 auto 20px;
+    text-align:center
+}
+
+.my-info:last-of-type {
+    margin:0
+}
+
+.my-name {
+    color:#fff;
+    font-size:40px;
+    font-weight:800
+}
+
+.about-me {
+    padding:1em
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.nav-images {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
