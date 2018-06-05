@@ -2,7 +2,8 @@ body {
     font-family:'Lato',sans-serif;
     color:#416FA0;
     font-weight:300;
-    font-size:2vmin
+    font-size:2vmin;
+    background-color: #f3ffec;
 }
 
 .row-buffer {
