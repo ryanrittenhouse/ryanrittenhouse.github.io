@@ -1,9 +1,17 @@
 body {
     font-family:'Lato',sans-serif;
-    color:#416FA0;
+    color:#FFF;
     font-weight:300;
     font-size:2vmin;
     background-color: #f6fffb;
+}
+
+#head {
+    height: 20em;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 2em;
 }
 
 .row-buffer {
@@ -11,23 +19,18 @@ body {
     margin-bottom:30spx
 }
 
-.title-logo {
-    height:140px;
-    width:140px
-}
-
 .img-responsive {
     border-radius: 5px;
 }
 
 .title-super {
-    font-weight:110;
-    font-size:6vmin
+    font-weight: bold;
+    font-size:6vmin;
 }
 
 .text-thin {
-    font-weight:105;
-    font-size:3vmin
+    font-weight:thin;
+    font-size:3vmin;
 }
 
 .text-muted {
@@ -87,9 +90,13 @@ body {
 
 .headshot {
     border-radius: 50%;
-    width: 150px;
+    width: 10em;
     height: auto;
     vertical-align: middle;
+    margin: 1em 0em 0em 3em;
+    border-color: #FFF;
+    border-style: solid;
+    border-width: medium;
 }
 
 .nav-images {
