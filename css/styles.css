@@ -10,8 +10,11 @@ body {
     height: 20em;
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
     background-size: 100%;
-    padding-right: 2em;
+    padding: 2em;
+    vertical-align: top !important;
 }
 
 .row-buffer {
@@ -27,7 +30,7 @@ body {
     font-weight: bold;
     font-size:3.2vw;
     color: #457a79;
-
+    margin-top: 0px;
 }
 
 .text-thin {
@@ -35,28 +38,31 @@ body {
     font-size:2vw;
     color: #457a79;
     margin-left: 2px;
-    margin-top: -6px;
-}
-
-.head {
-    vertical-align: top !important;
 }
 
 @media only screen
-and (max-width: 568px) {
-    .title-super {
-    font-weight: bold;
-    font-size:4vw;
-    color: #457a79;
-    margin-top: 5px;
+and (max-width: 400px) {
+        .title-super {
+        font-weight: bold;
+        font-size:4vw;
+        color: #457a79;
+        margin-top: 8px;
+        }
+        .text-thin {
+        font-weight: 588px;
+        font-size:3vw;
+        color: #457a79;
+        margin-left: 2px;
+        margin-top: -6px;
     }
-    .text-thin {
-    font-weight: 600;
-    font-size:3vw;
-    color: #457a79;
-    margin-left: 2px;
-    margin-top: -6px;
-}
+    #head {
+        padding: 2px;
+        height: 90px;
+    }
+    .headshot {
+        width: auto;
+        height: 15vw;
+    }
 }
 
 .text-muted {
@@ -116,10 +122,9 @@ and (max-width: 568px) {
 
 .headshot {
     border-radius: 50%;
-    width: 10em;
+    width: 15em;
     height: auto;
     vertical-align: middle;
-    margin: 1em 0em 0em 3em;
     border-color: #FFF;
     border-style: solid;
     border-width: medium;
