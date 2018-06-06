@@ -16,6 +16,12 @@ body {
     padding: 2vw;
 }
 
+.iframes {
+    width: 375px;
+    height: 300px;
+    border-radius: 5px;
+}
+
 .row-buffer {
     margin-top:20px;
     margin-bottom:30spx
@@ -48,6 +54,11 @@ and (max-width: 400px) {
         width: auto !important;
         margin-top: -2px;
     }
+    .iframes {
+        width: 100%;
+        height: 58vh;
+        margin: 2vw;
+}
 }
 
 .text-muted {
