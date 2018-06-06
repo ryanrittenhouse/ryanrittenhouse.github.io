@@ -25,12 +25,35 @@ body {
 
 .title-super {
     font-weight: bold;
-    font-size:6vmin;
+    font-size:3.2vw;
+    color: #457a79;
 }
 
 .text-thin {
-    font-weight:thin;
-    font-size:3vmin;
+    font-weight: 600;
+    font-size:2vw;
+    color: #457a79;
+    margin-left: 2px;
+    margin-top: -6px;
+}
+
+.head {
+    vertical-align: top !important;
+}
+
+@media only screen
+and (max-width: 568px) {
+    .title-super {
+    font-weight: bold;
+    font-size:4vw;
+    color: #457a79;
+    }
+    .text-thin {
+    font-weight: 600;
+    font-size:3vw;
+    color: #457a79;
+    margin-left: 2px;
+}
 }
 
 .text-muted {
