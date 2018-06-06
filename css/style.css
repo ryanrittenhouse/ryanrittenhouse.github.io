@@ -14,22 +14,49 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  width: 100%;
+  height: auto;
+}
+
 .education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
 }
 
+@media only screen and  (max-width: 525px) {
+  h1,
+  h2 {
+    color: #457a79;
+    display:block;
+  }
+h3 {
+  color: #000;
+  display: block;
+}
+h4 {
+  color: #4a4a4a;
+  display: block;
+}
+.flex-item {
+  display:block;
+}
+.white-text {
+  display: block;
+}
+};
+
 h1 {
-  font-size: 40px;
+  font-size: 9.1vw;
   color: #457a79;
-  line-height: 48px;
+  line-height: 3vw;
   display: inline;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5vw;
   color: #457a79;
   line-height: 29px;
   padding: 10px;
