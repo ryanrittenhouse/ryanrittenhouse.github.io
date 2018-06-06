@@ -1,17 +1,17 @@
 var bio = {
     "name": "Ryan Rittenhouse",
-    "role": "Web Development",
-    "age": "33",
+    "role": "Computer Information Systems Student",
+    "age": "35",
     "image": "images/headshotSmall.jpg",
     "contacts": [{
-        "mobile": "111-111-1111",
+        "mobile": "360-510-1697",
         "location": "Bellingham, WA",
-        "email": "idlesentry@gmail.com",
-        "github": "idlesentry"
+        "email": "ryanrittenhouse@comcast.net",
+        "github": "ryanrittenhouse"
     }],
 
-    "skills": ["Teaching English Literature", "Teaching Composition", "Formal Writing", "Web Development", "Homebrewing"],
-    "welcomeMessage": "Hello! My name is Ryan and I am an educator in Bellingham, Washington. In my free time I read a great deal of science-fiction, fantasy, and horror. I also find a suprising amount of time to work on honing my skills in web development, and homebrew among other things. Welcome to my resume!"
+    "skills": ["Teaching English Literature", "Teaching Composition", "Formal Writing", "Web Development", "Cisco Networking", "Troubleshooting"],
+    "welcomeMessage": "Former educator with strong work ethic and diverse experience in management and client support seeking Information Systems role focused on network administration and cybersecurity."
 };
 
 var work = {
@@ -37,7 +37,21 @@ var work = {
 };
 
 var education = {
-    "schools": [{
+    "schools": [ {
+        "name": "Whatcom Community College",
+        "location": "Bellingham, WA",
+        "degree": "Associate of Science",
+        "major": "Computer Information Systems",
+        "dates": "2018-2019",
+        "url": "http://www.wcc.edu/"
+    }, {
+        "name": "Western Washington University",
+        "location": "Bellingham, WA",
+        "degree": "Master of Arts",
+        "major": "English Literature",
+        "dates": "2013-2015",
+        "url": "http://www.wwu.edu/"
+    }, {
         "name": "Walla Walla Community College",
         "location": "Walla Walla, WA",
         "degree": "Associate of Arts",
@@ -51,13 +65,6 @@ var education = {
         "major": "English Literature",
         "dates": "2009-2012",
         "url": "http://www.wwu.edu/"
-    }, {
-        "name": "Western Washington University",
-        "location": "Bellingham, WA",
-        "degree": "Master of Arts",
-        "major": "English Literature",
-        "dates": "2013-2015",
-        "url": "http://www.wwu.edu/"
     }],
 
     "online courses": [{
@@ -70,7 +77,7 @@ var education = {
 
 var projects = {
     "projects": [{
-        "title": "Portofolio",
+        "title": "Portfolio",
         "dates": "August 2015 - September 2015",
         "description": "An online portfolio to display all of the other projects that I complete over the course of my nanodegree",
         "images": ""
@@ -175,7 +182,7 @@ $(document).click(function(loc) {
 bio.display();
 education.display();
 work.display();
-projects.display();
+//projects.display();
 
 
 function inName(name) {
