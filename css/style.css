@@ -14,10 +14,6 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
-.clear-fix {
-  overflow: auto;
-}
-
 .education-entry,
 .work-entry,
 .project-entry {
@@ -127,9 +123,10 @@ a {
   background-color: #132322;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #132322;
+  width: 100%
+  height: auto;
 }
 
 .flex-box {

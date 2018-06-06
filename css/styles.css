@@ -1,5 +1,5 @@
 body {
-    font-family:'Lato',sans-serif;
+    font-family:'Muli',sans-serif;
     color:#FFF;
     font-weight:300;
     font-size:2vmin;
@@ -7,14 +7,13 @@ body {
 }
 
 #head {
-    height: 20em;
+    height: 18vw;
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center-top;
     overflow: hidden;
     background-size: 100%;
-    padding: 2em;
-    vertical-align: top !important;
+    padding: 2vw;
 }
 
 .row-buffer {
@@ -27,41 +26,27 @@ body {
 }
 
 .title-super {
-    font-weight: bold;
-    font-size:3.2vw;
-    color: #457a79;
+    font-weight: bolder;
+    font-size: 3vw;
+    color: #000;
     margin-top: 0px;
-}
-
-.text-thin {
-    font-weight: 600;
-    font-size:2vw;
-    color: #457a79;
-    margin-left: 2px;
 }
 
 @media only screen
 and (max-width: 400px) {
         .title-super {
-        font-weight: bold;
-        font-size:4vw;
-        color: #457a79;
+        font-size:5.5vw;
         margin-top: 8px;
         }
-        .text-thin {
-        font-weight: 588px;
-        font-size:3vw;
-        color: #457a79;
-        margin-left: 2px;
-        margin-top: -6px;
-    }
+    
     #head {
-        padding: 2px;
         height: 95px;
     }
+
     .headshot {
-        width: auto;
-        height: 15vw;
+        height: 80px !important;
+        width: auto !important;
+        margin-top: -2px;
     }
 }
 
@@ -122,7 +107,7 @@ and (max-width: 400px) {
 
 .headshot {
     border-radius: 50%;
-    width: 15em;
+    width: 15vw;
     height: auto;
     vertical-align: middle;
     border-color: #FFF;
