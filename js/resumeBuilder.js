@@ -194,4 +194,4 @@ function inName(name) {
     return name[0] + " " + name[1];
 }
 
-$("#mapDiv").append(googleMap);
+// $("#mapDiv").append(googleMap);
