@@ -41,7 +41,7 @@ h2 {
 }
 
 @media only screen
-and (max-width: 400px) {
+and (max-width: 500px) {
         .title-super {
         font-size:5.5vw;
         margin-top: 8px;
@@ -55,6 +55,10 @@ and (max-width: 400px) {
     .headshot {
         height: 80px !important;
         width: auto !important;
+    }
+    .iframes {
+        width: 95%;
+        height: 95vh;
     }
 }
 
